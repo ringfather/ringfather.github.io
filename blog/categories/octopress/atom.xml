@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ringo Cheung]]></title>
-  <link href="http://ringfather.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Ringo Cheung]]></title>
+  <link href="http://ringfather.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://ringfather.github.io/"/>
   <updated>2014-05-27T14:15:42-04:00</updated>
   <id>http://ringfather.github.io/</id>
