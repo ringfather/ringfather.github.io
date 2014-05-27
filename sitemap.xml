@@ -2,24 +2,48 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://ringfather.github.io/blog/2014/05/17/test-short-title/</loc>
-        <lastmod>2014-05-17T19:57:25-07:00</lastmod>
+        <lastmod>2014-05-17T22:57:25-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://ringfather.github.io/blog/2014/05/17/test-longer-title-zombie-ninjas-attack-a-surivvors-retrospective/
         </loc>
-        <lastmod>2014-05-17T22:23:11-07:00</lastmod>
+        <lastmod>2014-05-18T01:23:11-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ringfather.github.io/blog/2014/05/27/about/</loc>
+        <lastmod>2014-05-27T10:37:46-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ringfather.github.io/blog/2014/05/27/test1/</loc>
+        <lastmod>2014-05-27T10:37:58-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ringfather.github.io/blog/2014/05/27/test2/</loc>
+        <lastmod>2014-05-27T10:38:03-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ringfather.github.io/blog/2014/05/27/test3/</loc>
+        <lastmod>2014-05-27T10:38:10-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ringfather.github.io/blog/2014/05/27/test4/</loc>
+        <lastmod>2014-05-27T10:38:14-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ringfather.github.io/blog/2014/05/27/test5/</loc>
+        <lastmod>2014-05-27T10:38:18-04:00</lastmod>
     </url>
     <url>
         <loc>http://ringfather.github.io/blog/archives/</loc>
-        <lastmod>2014-05-17T22:23:11-07:00</lastmod>
+        <lastmod>2014-05-27T10:38:18-04:00</lastmod>
     </url>
     <url>
         <loc>http://ringfather.github.io/</loc>
-        <lastmod>2014-05-17T22:23:11-07:00</lastmod>
+        <lastmod>2014-05-27T10:38:18-04:00</lastmod>
     </url>
     <url>
         <loc>http://ringfather.github.io/robots.txt</loc>
-        <lastmod>2014-05-17T19:47:08-07:00</lastmod>
+        <lastmod>2014-05-17T22:47:08-04:00</lastmod>
     </url>
 </urlset>

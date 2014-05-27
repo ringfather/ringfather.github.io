@@ -4,7 +4,7 @@
   <title><![CDATA[Ringo Cheung]]></title>
   <link href="http://ringfather.github.io/atom.xml" rel="self"/>
   <link href="http://ringfather.github.io/"/>
-  <updated>2014-05-18T07:29:28-07:00</updated>
+  <updated>2014-05-27T12:35:28-04:00</updated>
   <id>http://ringfather.github.io/</id>
   <author>
     <name><![CDATA[Ringo Cheung]]></name>
@@ -14,9 +14,63 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Test5]]></title>
+    <link href="http://ringfather.github.io/blog/2014/05/27/test5/"/>
+    <updated>2014-05-27T10:38:18-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/05/27/test5</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test4]]></title>
+    <link href="http://ringfather.github.io/blog/2014/05/27/test4/"/>
+    <updated>2014-05-27T10:38:14-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/05/27/test4</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test3]]></title>
+    <link href="http://ringfather.github.io/blog/2014/05/27/test3/"/>
+    <updated>2014-05-27T10:38:10-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/05/27/test3</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test2]]></title>
+    <link href="http://ringfather.github.io/blog/2014/05/27/test2/"/>
+    <updated>2014-05-27T10:38:03-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/05/27/test2</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test1]]></title>
+    <link href="http://ringfather.github.io/blog/2014/05/27/test1/"/>
+    <updated>2014-05-27T10:37:58-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/05/27/test1</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About]]></title>
+    <link href="http://ringfather.github.io/blog/2014/05/27/about/"/>
+    <updated>2014-05-27T10:37:46-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/05/27/about</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Test: Longer Title - Zombie Ninjas Attack : A Surivvor's Retrospective]]></title>
     <link href="http://ringfather.github.io/blog/2014/05/17/test-longer-title-zombie-ninjas-attack-a-surivvors-retrospective/"/>
-    <updated>2014-05-17T19:58:04-07:00</updated>
+    <updated>2014-05-17T22:58:04-04:00</updated>
     <id>http://ringfather.github.io/blog/2014/05/17/test-longer-title-zombie-ninjas-attack-a-surivvors-retrospective</id>
     <content type="html"><![CDATA[<p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
 
@@ -36,7 +90,7 @@
   <entry>
     <title type="html"><![CDATA[Test: Short Title]]></title>
     <link href="http://ringfather.github.io/blog/2014/05/17/test-short-title/"/>
-    <updated>2014-05-17T19:57:25-07:00</updated>
+    <updated>2014-05-17T22:57:25-04:00</updated>
     <id>http://ringfather.github.io/blog/2014/05/17/test-short-title</id>
     <content type="html"><![CDATA[
 ]]></content>
