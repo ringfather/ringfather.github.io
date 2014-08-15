@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ringo Cheung]]></title>
-  <link href="http://ringfather.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Webapp | Ringo Cheung]]></title>
+  <link href="http://ringfather.github.io/blog/categories/webapp/atom.xml" rel="self"/>
   <link href="http://ringfather.github.io/"/>
   <updated>2014-08-14T23:15:08-04:00</updated>
   <id>http://ringfather.github.io/</id>
@@ -43,28 +43,6 @@ Check out the code on Github <a href="https://github.com/ringocheung/ExpenSe ">h
 Honestly had a tough time committing to this project. I was pretty tired after work every, getting home at 6:30 and wanting to just relax. You can even see from my github commits I was committing only once or twice a week for the first few weeks. However, once I started building more and more, I wanted to build more and more and put this thing together so I could use it (selfish, I know). By overcoming this challenge and actually completing this project, I feel like every other project I start will be easier because I know I&rsquo;ve completed one before and actually had a lot of fun.</p>
 
 <p>Big thanks to the <a href="http://www.tangowithdjango.com/">tango with django tutorial</a> and <a href="http://www.pythonanywhere.com">Python Anywhere&rsquo;s hosting service</a>. Extremely helpful for building your first Django webapp.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[About]]></title>
-    <link href="http://ringfather.github.io/blog/2014/05/27/about/"/>
-    <updated>2014-05-27T13:20:41-04:00</updated>
-    <id>http://ringfather.github.io/blog/2014/05/27/about</id>
-    <content type="html"><![CDATA[<p>Hi there, I&rsquo;m Ringo and I study engineering science at the University of Toronto. In my first year of university, I learned how to write code and really enjoyed it. This summer, I am working for RBC full-time writing code in the Capital Markets division. Outside of school and work, I also paddle for the Iron Dragons, University of Toronto Engineering&rsquo;s dragon boat team. In my free time, I like to play and build with code, play board games or toss a disc around.</p>
-
-<!--more-->
-
-
-<p>I started this blog to share the projects that I work on, as well as my own engineering journey. I&rsquo;ve found a lot of other people&rsquo;s blogs to be extremely helpful as a budding software engineer and I want to share my knowledge &amp; experiences as well. Blogs like these make software such an awesome field because people are open to sharing what they know, ultimately driving the entire community of hackers forward. That is what this blog aspires to be.</p>
-
-<p>Do not hesitate to contact me, whether for work-related inquiries or just to chat. You can hit me up on my Twitter or LinkedIn below. My portfolio will be out sometime before September.</p>
-
-<p>Cheers,</p>
-
-<p>Ringo</p>
-
-<p>P.S. Huge thanks to Karen Keung, my awesome graphic designer friend. She designed this blog. Check out her work <a href="http://www.karenkeung.com/">here</a>, it&rsquo;s cool I promise. We only spent ~6 hours coding this blog up thanks to <a href="http://octopress.org/">Octopress</a> and <a href="https://github.com/vladigleba/readify">Readify</a>.</p>
 ]]></content>
   </entry>
   

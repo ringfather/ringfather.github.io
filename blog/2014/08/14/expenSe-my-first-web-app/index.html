@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Ringo Cheung</title>
+  <title>Expen$e: My First Web App - Ringo Cheung</title>
   <meta name="author" content="Ringo Cheung">
 
   
@@ -19,7 +19,7 @@ Check out the code on Github here The idea for Expen$e came from a conversation 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ringfather.github.io">
+  <link rel="canonical" href="http://ringfather.github.io/blog/2014/08/14/expenSe-my-first-web-app">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Ringo Cheung" type="application/atom+xml">
@@ -76,15 +76,12 @@ Check out the code on Github here The idea for Expen$e came from a conversation 
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/08/14/expenSe-my-first-web-app/">Expen$e: My First Web App</a></h1>
+      <h1 class="entry-title">Expen$e: My First Web App</h1>
     
     
       <p class="meta">
@@ -115,34 +112,42 @@ Check out the code on Github here The idea for Expen$e came from a conversation 
   </header>
 
 
-  <div class="entry-content"><p>Project deployed at: <a href="http://ringocheung.pythonanywhere.com/ExpenSe/">Expen$e</a><br/>
+<div class="entry-content"><p>Project deployed at: <a href="http://ringocheung.pythonanywhere.com/ExpenSe/">Expen$e</a><br/>
 Check out the code on Github <a href="https://github.com/ringocheung/ExpenSe ">here</a></p>
 
 <p>The idea for <a href="http://ringocheung.pythonanywhere.com/ExpenSe/">Expen$e</a> came from a conversation with a friend about how difficult it is to record expenses with traditional apps. We quickly agreed on the annoyance of having to perform more than 2 actions to record an expense. It made no sense to me that an expense tracking app did not allow for easy expense tracking. As a user, I want to be able to record expenses as easily as possible. This desire drove two key design decisions: macros and single box input.</p>
 
 <p>Macros are not anything new. They are typically used as shortcuts &ndash; in this case a letter replaces an expense name. Instead of having to type in &lsquo;utilities&rsquo;, Expen$e allows you to set the &lsquo;u&rsquo; macro to utilities and then type in &lsquo;u&rsquo; instead.</p>
 
+<!--more-->
+
+
+<p>To further optimize the recording process, only one input box is used &ndash; with no delimiters. This design decision makes it even easier to record and expense, instead of having to type &lsquo;u&rsquo; and &lsquo;15&rsquo; in separate boxes or even &lsquo;u/15&rsquo; in one box, Expen$e allows the user to type in &lsquo;u15&rsquo; in one box and it will recognize that the user is trying to record a utilities expense of $15. Descriptions are also supported in the following format: &lsquo;u15Electricity bill for the month of October&rsquo;. This meant a regex (always fun) in the decoding engine but the added simplicity for the user was in my opinion a good tradeoff.</p>
+
+<p>The rest of the application is a pretty standard CRUD app, allowing users to set a recurring monthly budget and displaying how much is remaining/used out of that budget.</p>
+
+<p>Lessons learned:<br/>
+1. Web apps are really fun to build &ndash; Self-explanatory :)<br/>
+2. The 80/20 rule is real &ndash; The last 20% of the app took 80% of the time. Well, that&rsquo;s an exaggeration but you get my point: It was a lot harder to implement &lsquo;details&rsquo; than it was to get the app working.<br/>
+3. Make code as modular as you can &ndash; package related functions into modules, always try to build part by part and test your parts before putting them into the big machine. I was taught this in school but never realized how true it was until I actually needed to debug my app&hellip;<br/>
+4. Use a file to log your progress and plan the application &ndash; This helped me a lot because I would sit down to work and already know what I needed to do instead of waste time thinking about what feature to implement every time.<br/>
+5. Keep photos of progress and write the blog post AS I&rsquo;m doing the project, not after.</p>
+
+<p>Biggest challenge: getting started.<br/>
+Honestly had a tough time committing to this project. I was pretty tired after work every, getting home at 6:30 and wanting to just relax. You can even see from my github commits I was committing only once or twice a week for the first few weeks. However, once I started building more and more, I wanted to build more and more and put this thing together so I could use it (selfish, I know). By overcoming this challenge and actually completing this project, I feel like every other project I start will be easier because I know I&rsquo;ve completed one before and actually had a lot of fun.</p>
+
+<p>Big thanks to the <a href="http://www.tangowithdjango.com/">tango with django tutorial</a> and <a href="http://www.pythonanywhere.com">Python Anywhere&rsquo;s hosting service</a>. Extremely helpful for building your first Django webapp.</p>
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/08/14/expenSe-my-first-web-app/">Read on &rarr;</a>
-    </footer>
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/27/about/">About</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Ringo Cheung</span></span>
+
+      
 
 
 
@@ -154,39 +159,38 @@ Check out the code on Github <a href="https://github.com/ringocheung/ExpenSe ">h
   
 
 
-<time datetime="2014-05-27T13:20:41-04:00" pubdate data-updated="true">May 27<span>th</span>, 2014</time> / 
+<time datetime="2014-08-14T22:22:52-04:00" pubdate data-updated="true">Aug 14<span>th</span>, 2014</time>
+      
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/about/'>about</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/summer2014/'>summer2014</a>
+    <a class='category' href='/blog/categories/django/'>django</a>, <a class='category' href='/blog/categories/project/'>project</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/webapp/'>webapp</a>
   
 </span>
 
 
-        
-      </p>
+    </p>
     
-  </header>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ringfather.github.io/blog/2014/08/14/expenSe-my-first-web-app/" data-via="" data-counturl="http://ringfather.github.io/blog/2014/08/14/expenSe-my-first-web-app/" >Tweet</a>
+  
+  
+  
+</div>
 
-
-  <div class="entry-content"><p>Hi there, I&rsquo;m Ringo and I study engineering science at the University of Toronto. In my first year of university, I learned how to write code and really enjoyed it. This summer, I am working for RBC full-time writing code in the Capital Markets division. Outside of school and work, I also paddle for the Iron Dragons, University of Toronto Engineering&rsquo;s dragon boat team. In my free time, I like to play and build with code, play board games or toss a disc around.</p>
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/05/27/about/" title="Previous Post: About">&laquo; About</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/05/27/about/">Read on &rarr;</a>
-    </footer>
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -210,6 +214,7 @@ Check out the code on Github <a href="https://github.com/ringocheung/ExpenSe ">h
 
   
 </aside>
+
 
     </div>
   </div>
