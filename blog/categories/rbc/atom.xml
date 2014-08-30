@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rbc | Ringo Cheung]]></title>
+  <link href="http://ringfather.github.io/blog/categories/rbc/atom.xml" rel="self"/>
+  <link href="http://ringfather.github.io/"/>
+  <updated>2014-08-30T13:21:57-04:00</updated>
+  <id>http://ringfather.github.io/</id>
+  <author>
+    <name><![CDATA[Ringo Cheung]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Working as a Developer for RBC Capital Markets]]></title>
+    <link href="http://ringfather.github.io/blog/2014/08/30/working-as-a-developer-for-rbc-capital-markets/"/>
+    <updated>2014-08-30T08:39:25-04:00</updated>
+    <id>http://ringfather.github.io/blog/2014/08/30/working-as-a-developer-for-rbc-capital-markets</id>
+    <content type="html"><![CDATA[<p>A little over three months ago, I was fortunate enough to land a software development position at RBC Capital Markets. Yesterday was my last day, and I woke up this morning feeling a little nostalgic, so I decided to write this post to share my experience working as a software developer for RBC.</p>
+
+<p>So what did I do in my three months? Well, here&rsquo;s the summary of duties and work performed that I put on my Practical Experience Form (PER) &ndash; a mandatory experience requirement that engineering students have to complete before graduating:</p>
+
+<!--more-->
+
+
+<ol>
+<li>Applied TDD techniques to develop testing utility that is currently being used for over 80 business reports, directly identifying a critical bug before production release</li>
+<li>Utilized OOP techniques to implement functional enhancements to web application used by entire team of 40+, which included designing SQL Server database tables, implementing an ORM and application logic, and designing a UI, automating 250+ tasks and directly reducing the time required to complete one of these tasks by 90%  on average</li>
+<li>Built a data extraction utility to generate 1000+ pages of database documentation, directly facilitating data mapping tasks of a team of 4</li>
+<li>Created and presented software enhancements proposal to two team leads resulting in approval to make enhancements to existing application</li>
+</ol>
+
+
+<p>A quick list of the tools and techniques I used include:</p>
+
+<p>Visual Studio 2008 &amp; 2010, Microsoft SSRS, SSIS &amp; SSMS, API&rsquo;s (including Atlassian&rsquo;s Confluence and Microsoft SSRS), SQL Server, Test Driven Development, Unit Testing, Python, Object Oriented Programming, Subversion, Continuous Integration Tool (Jenkins)</p>
+
+<p>If you&rsquo;ll notice, I actually did a lot of programming for RBC, for which I count myself extremely lucky. It was extremely satisfying to build the testing utility, and then see it run several times a day through our continuous integration testing tool and actually help us identify bugs in our reports. Similarly, creating and presenting a software enhancement proposal and then actually working on the enhancements and delivering a usable product during my term was extremely awesome.</p>
+
+<p>Here are a few things I learned in the last three months:</p>
+
+<ul>
+<li>Your internship can be as good or bad as you make it. I remember there were some days where I wasn&rsquo;t assigned much work, but I went out of my way to bug my supervisor to give me more. This attitude of wanting to contribute definitely helped me get bigger projects to work on.</li>
+<li>Ask people for help! I remember I was pretty intimidated by all the senior developer towards the beginning, but they were all actually very nice and willing to help. Some even went out of their way to help me out!</li>
+<li>At the same time, try to figure things out on your own before asking for help. No one likes that co-op who asks trivial questions and wastes everyone&rsquo;s time. Google + Stack Overflow can answer 90%+ of your software problems. For the remaining 10%&ndash;, ask away.</li>
+<li>Design your code. There are many ways to write a program, but I learned that picking which way is important. For instance, you probably want to use objects most of the time and modularize your code. You also want to write unit tests, lots of unit tests.</li>
+<li>Version control is extremely important. Commit all your work, and make sure it passes the build tests before you go home for the day.</li>
+</ul>
+
+
+<p>All in all, I count my experience as very positive &ndash; I was given a chance to use what I learned in school to build solutions, and learned a ton about a field that I am considering for my career. I want to thank everyone who helped me during my time at RBC if they ever read this, and those who helped me get the job, you know who you are. This has definitely been one of my better summers (2012 was pretty awesome as well), and I look forward to the next one.</p>
+]]></content>
+  </entry>
+  
+</feed>
